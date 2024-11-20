@@ -5,10 +5,10 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 #Copy the Application JAR
-COPY target/*.jar student-app.jar
+COPY target/*.jar employeeappci.jar
 
 #Expose Application port
 EXPOSE 8080
 
 #Execution the application
-ENTRYPOINT ["java","-jar","student-app.jar"]
+ENTRYPOINT ["java","-jar","employeeappci.jar"]

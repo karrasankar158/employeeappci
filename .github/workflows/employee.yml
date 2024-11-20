@@ -42,7 +42,7 @@ jobs:
           file: ./Dockerfile #Docker file path
           push: true #Push Image
           #tags: ${{secrets.DOCKER_USERNAME}}/student-appcd:latest #tag
-          tags: ${{secrets.DOCKER_USERNAME}}/student-appcd:${{github.sha}} #tag
+          tags: ${{secrets.DOCKER_USERNAME}}/employeeappci:${{github.sha}} #tag
 
 
 
